@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsQuery.NETStandard" Version="1.3.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\LazyMortal\src\ProxyProvider\ProxyProvider\ProxyProvider.csproj" />
+    <ProjectReference Include="..\..\..\LazyMortal\src\TaskQueue\TaskQueue.CommonTaskQueues\TaskQueue.CommonTaskQueues.csproj" />
+    <ProjectReference Include="..\..\ProxyProvider\ProxyProvider\ProxyProvider.csproj" />
+    <ProjectReference Include="..\..\TaskQueue\TaskQueue.CommonTaskQueues\TaskQueue.CommonTaskQueues.csproj" />
+  </ItemGroup>
+
+</Project>

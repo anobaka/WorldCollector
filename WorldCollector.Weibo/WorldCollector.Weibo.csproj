@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\LazyMortal\src\Bootstrap\Bootstrap.csproj" />
+    <ProjectReference Include="..\..\..\LazyMortal\src\TaskQueue\TaskQueue.CommonTaskQueues\TaskQueue.CommonTaskQueues.csproj" />
+    <ProjectReference Include="..\..\ProxyProvider\ProxyProvider\ProxyProvider.csproj" />
+    <ProjectReference Include="..\..\TaskQueue\TaskQueue.CommonTaskQueues\TaskQueue.CommonTaskQueues.csproj" />
+  </ItemGroup>
+
+</Project>
